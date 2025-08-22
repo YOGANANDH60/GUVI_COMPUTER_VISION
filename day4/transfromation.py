@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-img = cv2.imread("image.jpg")
+img = cv2.imread("summa.jpg")
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 # 2D Translation
 M = np.float32([[1, 0, 50],[0,1,50]])
