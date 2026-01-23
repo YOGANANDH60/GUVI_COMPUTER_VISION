@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-
+# this is edit the image like blur 
 img = cv2.imread("image.jpg")
 
 blur = cv2.blur(img, (5,5))
