@@ -1,4 +1,5 @@
 import cv2
+# the all compression technic
 img = cv2.imread("summa.jpg")
 cv2.imwrite("compressed_image.jpg",img,[cv2.IMWRITE_JPEG_QUALITY,50])
 cv2.imwrite("compressed_image.png",img,[cv2.IMWRITE_PNG_COMPRESSION,9])
