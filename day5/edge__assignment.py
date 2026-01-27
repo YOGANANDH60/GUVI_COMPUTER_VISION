@@ -8,4 +8,4 @@ gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 edges = cv2.Canny(gray,100,300)
 
 plt.imshow(edges)
-plt.show()
+plt.show()"""55""""
